@@ -360,10 +360,10 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.reactjs {
+  	width: 80%;
+  	-moz-animation: reactjs 2s ease;
+  	-webkit-animation: reactjs 2s ease;
 }
 
 @-moz-keyframes photoshop {
@@ -378,6 +378,14 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+@-moz-keyframes java {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-moz-keyframes spring-boot {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
 @-moz-keyframes css {
   0%   { width: 0px;  }
   100% { width: 90%;  }
@@ -386,9 +394,9 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes reactjs {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 80%;  }
 }
 
 @-webkit-keyframes photoshop {
