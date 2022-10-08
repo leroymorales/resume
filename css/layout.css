@@ -383,7 +383,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes nodejs {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 80%;  }
 }
 @-moz-keyframes react {
   0%   { width: 0px;  }
