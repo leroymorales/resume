@@ -108,9 +108,9 @@ jQuery(document).ready(function ($) {
          title: 'Peter & Paul fortress in SPB'
       },
       type: 'image',
-      // fixedContentPos: false,
-      // removalDelay: 200,
-      // showCloseBtn: false,
+      fixedContentPos: false,
+      removalDelay: 200,
+      showCloseBtn: false,
       // mainClass: 'mfp-fade'
 
    });
