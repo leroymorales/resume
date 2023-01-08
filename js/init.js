@@ -108,6 +108,7 @@ jQuery(document).ready(function ($) {
       //    title: 'Peter & Paul fortress in SPB'
       // },
       type: 'inline',
+      midClick: true,
       fixedContentPos: false,
       removalDelay: 200,
       showCloseBtn: false,
