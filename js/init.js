@@ -103,15 +103,15 @@ jQuery(document).ready(function ($) {
    ------------------------------------------------------*/
 
    $('.item-wrap a').magnificPopup({
-      items: [{
+      items: {
          src: 'http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Peter_%26_Paul_fortress_in_SPB_03.jpg/800px-Peter_%26_Paul_fortress_in_SPB_03.jpg',
-         title: 'BOSS Project'
-      }],
-      type: 'inline',
-      fixedContentPos: false,
-      removalDelay: 200,
-      showCloseBtn: false,
-      mainClass: 'mfp-fade'
+         title: 'Peter & Paul fortress in SPB'
+      },
+      type: 'image',
+      // fixedContentPos: false,
+      // removalDelay: 200,
+      // showCloseBtn: false,
+      // mainClass: 'mfp-fade'
 
    });
 
